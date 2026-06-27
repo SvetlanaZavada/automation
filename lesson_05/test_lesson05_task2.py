@@ -8,6 +8,6 @@ def test_form_submission():
     driver.find_element(By.NAME, "custname").send_keys("Svetlana")
     driver.find_element(By.XPATH, "//button[text()='Submit order']").click()
     print("URL:", driver.current_url)
-    assert driver.current_url == "https://httpbin.org"
+    assert driver.current_url == "https://httpbin.org/post"
 
     driver.quit()
