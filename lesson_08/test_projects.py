@@ -1,7 +1,7 @@
 import requests
 
 base_url = "https://ru.yougile.com"
-auth = "Bearer Token" # Введите свой токен авторизации
+auth = "Bearer Token"   # Введите свой токен авторизации
 title = "Автоматизация"
 
 created_id = None
